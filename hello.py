@@ -16,7 +16,7 @@ def hello(to = "world"):
   print("Hello, " + to)
 
 
-name=input("What's ypu name? ")
+name=input("What's you name? ")
 hello()
 hello(name)
 
