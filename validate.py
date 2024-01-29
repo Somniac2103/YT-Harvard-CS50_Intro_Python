@@ -2,7 +2,7 @@ import re
 
 email = input("Email?").strip()
 
-if re.search(r"^\w+@\w+\.edu$", email,):
+if re.search(r"^\w+@\w+\.edu$", email,re.IGNORECASE):
 
 # if "@" and "." in email:
 
